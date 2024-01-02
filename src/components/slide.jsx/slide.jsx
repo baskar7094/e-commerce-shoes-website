@@ -1,13 +1,25 @@
 import React from 'react'
 import { ClientImg1, Left1, Right1 } from '../../App'
+import Car from 'carousel-react-app'
+
 
 const leftarrow = <Left1/>
 const rightarrow = <Right1/>
 const slideimg  = <ClientImg1/>
+
 export default function Slide() {
   return (
 <>
-<section className=' w-full  relative'>
+<Car images={Slider} delay={2000}/>
+
+</>
+
+    )
+}
+
+function Slider(){
+    return(<>
+    <section className=' w-full  relative'>
     <div className="card bg-slate-800 px-5 py-10 lg:w-4/5 md:w-2/3 w-full h-48   mx-auto max-h-fit my-3 md:my-10">
         <div className="card-header grid grid-cols-2 justify-center items-center  ">
             
@@ -24,8 +36,5 @@ export default function Slide() {
         <button className='absolute top-1/2 right-10'><span>{rightarrow}</span></button>
     </div>
 </section>
-
-</>
-
-    )
+    </>)
 }

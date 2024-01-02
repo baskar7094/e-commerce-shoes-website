@@ -8,8 +8,13 @@ import Quality from '../quality/quality'
 import Slide from '../slide.jsx/slide'
 import Feild from '../form/feild'
 import Contact from '../contact/contact'
+import Aos from 'aos'
+
+
+
 const toggle =<ToggleImg1/>
 export default function Page() {
+  Aos.init()
     return (
         <>
         <div className='bg-img'>
@@ -31,7 +36,7 @@ export default function Page() {
 
         </div>
 
-        <div className='overflow-hidden scroll-smooth'>
+        <div className='overflow-hidden scroll-smooth' data-aos='fade-up' data-aos-mirror='false'>
         <About />
         <Quality />
         <Slide/>
