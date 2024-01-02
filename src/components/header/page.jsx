@@ -24,7 +24,7 @@ export default function Page() {
                 <div className='text-left '>
                     <button className='   absolute md:top-40 top-5    right-5  max-w-20 md:left-10   md:p-4 rounded-sm '><span className=''>{toggle}</span></button>
                     <div className='md:px-10 px-1 py-16 md:py-20  '>
-                        <h1 className='md:text-4xl text-xl xl:text-5xl capitalize md:p-10 p-5 font-bold '>genuine <br /> shoes online shopping</h1>
+                        <h1 className='md:text-4xl text-xl xl:text-5xl capitalize md:p-10 p-5 font-bold '>genuine <br /> shoes online shop</h1>
                         <p className='md:px-10 px-5 md:py-0 xl:text-lg '>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
                         <br />
